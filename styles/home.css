@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+
+body{
+    margin: 0;
+}
+
+
+.main{
+    display: grid;
+}
+
+nav{
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-left: 30%;
+    margin-top: 50px;
+    width: 40%;
+    font-family: 'Comfortaa', cursive;
+    background-color: rgb(69, 235, 179);
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+    z-index: 3;
+}
+
+.nav_element{
+    text-decoration: none;
+    color: black;
+    padding: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.nav_element:hover{
+    cursor: pointer;
+    color: whitesmoke;
+}
+
+.con_1{
+    display: flex;
+    max-height: 560px;
+}
+
+.con_2{
+    display: flex;
+    position: relative;
+    max-height: 800px;
+}
+
+.neiron_text{
+    font-family: 'Comfortaa', cursive;
+    font-size:   10vh;
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 500px;
+    z-index: 2;
+    color: white;
+}
+
+.alcohol_text{
+    background-color: rgba(0, 0, 0, 0.37);
+    font-family: 'Comfortaa', cursive;
+    font-size:xx-large;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    z-index: 2;
+    color: white;
+}
+
+.neiron{
+    max-width: 100%;
+    min-width: 100%;
+    min-height: 800px;
+    top:50%;
+    overflow: hidden;
+    transform: translate( 0%, -30%);
+}
+
+.alcohol{
+    display: flex;
+    max-width: 100%;
+    min-width: 100%;
+}
